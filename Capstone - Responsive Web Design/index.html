@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'>
+    <title>Bar "On The Books" Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id='title'>Bar "On The Books" Survey Form</h1>
+      <p id='description'>Your opinion is greatly appreciated - thank you for your time!</p>
+      <form id='survey-form'>
+        <fieldset id='base-information'>
+          <label id="name-label" for='name'>Name<input id='name' type='text' placeholder='Enter your name' required></label>
+          <label id="email-label" for='email'>Email<input id='email' type='email' placeholder='Enter your email' required></label>
+          <label id="number-label" for='number'>Age<input id='number' type='number' min='18' max='150' placeholder='Enter your age'></label>
+        </fieldset>
+        <fieldset id='answers'>
+          <label for='choose-drink'>What drink do you order most frequently?
+            <select id='dropdown' name='choose-drink'>
+              <option value="">select one</option>
+              <option value='1'>Ice Coffee</option>
+              <option value='2'>Hot Coffee</option>
+            </select>
+          </label>
+          <label for='sitting-area'>What sitting area is the usual choice for you?
+            <input type='radio' name='sitting-area' id='radio-bar-stools' value="1"> Bar stools
+            <input type='radio' name='sitting-area' id='radio-window' value="2"> By the windows
+            <input type='radio' name='sitting-area' id='radio-smoking' value="3"> Smoking zone
+          </label>
+          <label for='improvements'>What would you like to see improved?
+            <input type='checkbox' name='improvements' id='checkbox-drink-choice' value='1'> Selection of drinks
+            <input type='checkbox' name='improvements' id='checkbox-food-choice' value='2'> Selection of snacks
+            <input type='checkbox' name='improvements' id='checkbox-service-choice' value='3'>Speed of service
+            <input type='checkbox' name='improvements' id='checkbox-tricks-choice' value='4'>Bartender's tricks
+          </label>
+        </fieldset>
+        <fieldset id='comment-area'>
+          <label for='improvements'>Feel free to leave additional suggestions!
+            <textarea id="improvements" name="improvements" rows="3" cols="30" placeholder="I like a drink while lounging on the beach..."></textarea>
+          </label>
+        </fieldset>
+        <input id='submit' type='submit'>
+      </form>
+    </main>
+  </body>
+</html>
