@@ -20,8 +20,28 @@
     clear: both;
 }
 
+.nav-link {
+    display: block;
+    
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
     .column {
       width: 100%;
+    }
+    nav {
+        margin-bottom: 5%;
+    }
+    .nav-wrapper {
+
+    }
+    .nav-link {
+        display: flex;
+        border: 1px solid;
+        
+        justify-content: space-between;
     }
   }
