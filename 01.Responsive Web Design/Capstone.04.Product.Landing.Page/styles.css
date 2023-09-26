@@ -1,0 +1,16 @@
+header {
+    position: fixed;
+    top: 0;
+}
+
+@media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
