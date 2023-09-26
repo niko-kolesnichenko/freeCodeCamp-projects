@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Documentation Page</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Documentation Page and its contents">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Documentation Page</header>
+      <div class="nav-wrapper">
+        <ul>
+            <li><a class="nav-link" href="#&lt;a&gt;">&lt;a&gt;</a></li>
+            <li><a class="nav-link" href="#&lt;br&gt;">&lt;br&gt;</a></li>
+            <li><a class="nav-link" href="#&lt;code&gt;">&lt;code&gt;</a></li>
+            <li><a class="nav-link" href="#&lt;div&gt;">&lt;div&gt;</a></li>
+            <li><a class="nav-link" href="#&lt;em&gt;">&lt;em&gt;</a></li>
+            <li><a class="nav-link" href="#&lt;form&gt;">&lt;form&gt;</a></li>
+        </ul>
+        </div>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="&lt;a&gt;">
+            <header>&lt;a&gt;</header>
+            <article>
+                <p>The <code>&lt;a&gt;</code> HTML element (or anchor element), with its <code>href</code> attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</p>
+                <p>Content within each <code>&lt;a&gt;</code> should indicate the link's destination. If the href attribute is present, pressing the enter key while focused on the <code>&lt;a&gt;</code> element will activate it.</p>
+                <p>Notes:</p>
+                <ul>
+                    <li>To represent multiple lines of code, wrap the <code>&lt;code&gt;</code> element within a <code>&lt;pre&gt;</code> element</li>
+                    <li>A CSS rule can be defined for the <code>code</code> selector to override the browser's default font face</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="&lt;br&gt;">
+            <header>&lt;br&gt;</header>
+            <article>
+                <p>The <code>&lt;br&gt;</code> HTML element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.</p>
+                <p>The <code>&lt;br&gt;</code> element has a single, well-defined purpose — to create a line break in a block of text. As such, it has no dimensions or visual output of its own, and there is very little you can do to style it.</p>
+                <p>Notes:</p>
+                <ul>
+                    <li>Screen readers may announce the presence of the element, but not any content contained within <code>&lt;br&gt;</code></li>
+                    <li>Use <code>&lt;p&gt;</code> elements, and use CSS properties like <code>margin</code> to control <code>&lt;br&gt;</code> spacing</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="&lt;code&gt;">
+            <header>&lt;code&gt;</header>
+            <article>
+                <p>The <strong><code>&lt;code&gt;</code></strong> HTML element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code. By default, the content text is displayed using the user agent's default monospace font.</p>
+                <p>Notes: </p>
+                <ul>
+                    <li>To represent multiple lines of code, wrap the <code>&lt;code&gt;</code> element within a <code>&lt;pre&gt;</code> element</li>
+                    <li>A CSS rule can be defined for the <code>code</code> selector to override the browser's default font face</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="&lt;div&gt;">
+            <header>&lt;div&gt;</header>
+            <article>
+                <p>The <strong><code>&lt;div&gt;</code></strong> HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox     is applied to its parent element).</p>
+                <p>Notes: </p>
+                <ul>
+                    <li>The <code>&lt;div&gt;</code> element should be used only when no other semantic element (such as <code>&lt;article&gt;</code> or <code>&lt;nav&gt;</code>) is appropriate</li>
+                    <li>The <code>&lt;div&gt;</code> element has an implicit role of <code>generic</code>, and not none - which may affect certain ARIA combination declarations</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="&lt;em&gt;">
+            <header>&lt;em&gt;</header>
+            <article>
+                <p>The <strong><code>&lt;em&gt;</code></strong> HTML element marks text that has stress emphasis.</p>
+                <p>The <code>&lt;em&gt;</code> element can be nested, with each level of nesting indicating a greater degree of emphasis.</p>
+                <p>Notes: </p>
+                <ul>
+                    <li>The <code>&lt;em&gt;</code> element is for words that have a stressed emphasis compared to surrounding text, which is often limited to a word or words of a sentence and affects the meaning of the sentence itself</li>
+                    <li>The <code>&lt;em&gt;</code> element represents stress emphasis of its contents, while the <code>&lt;i&gt;</code> element represents text that is set off from the normal prose, such as a foreign word, fictional character thoughts, or when the text refers to the definition of a word instead of representing its semantic meaning</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="&lt;form&gt;">
+            <header>&lt;form&gt;</header>
+            <article>
+                <p>The <strong><code>&lt;form&gt;</code></strong> HTML element represents a document section containing interactive controls for submitting information.</p>
+                <p>It is possible to use the <code>:valid</code> and <code>:invalid</code> CSS pseudo-classes to style a <code>&lt;form&gt;</code> element based on whether the <code>elements</code> inside the form are valid.</p>
+                <p>Notes: </p>
+                <ul>
+                    <li>Getting a list of the elements in the form: <code>HTMLFormElement.elements</code></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+  </body>
+</html>
