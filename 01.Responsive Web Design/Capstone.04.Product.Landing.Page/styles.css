@@ -3,6 +3,10 @@ header {
     top: 0;
 }
 
+header nav {
+    text-transform: uppercase;
+}
+
 @media (max-width: 800px) {
     #pricing {
       flex-direction: column;
